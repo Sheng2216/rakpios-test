@@ -7,7 +7,7 @@ FIRST_USER_NAME=rak
 FIRST_USER_PASS=changeme
 DISABLE_FIRST_BOOT_USER_RENAME=1
 ENABLE_SSH=1
-STAGE_LIST="stage0 stage1 stage2 stage2-rak"
+STAGE_LIST="stage0 stage1 stage2 stage2-rak stage2-container"
 IMG_DATE=$( date +%Y%m%d )
 
 # Custom configuration tags
