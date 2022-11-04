@@ -6,13 +6,13 @@ mkdir -p /etc/local/runonce.d/ran
 EOF
 
 # copy portainer.sh.sample
-cp files/portainer.sh.sample "${ROOTFS_DIR}/etc/local/runonce.d"
+cp files/portainer.sh.sample "${ROOTFS_DIR}/etc/local/runonce.d/"
 echo "1"
 # copy the runonce script
-cp files/runonce "${ROOTFS_DIR}/etc/local/bin/runonce"
+cp files/runonce "${ROOTFS_DIR}/etc/local/bin/"
 echo "2"
 # copy the rc.local script
-cp files/rc.local "${ROOTFS_DIR}/etc/rc.local"
+cp files/rc.local "${ROOTFS_DIR}/etc/"
 echo "3"
 
 # configure the portainer premission
