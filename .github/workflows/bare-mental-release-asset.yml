@@ -57,7 +57,7 @@ jobs:
       - name: Find Zip Path
         id: find-zip-path
         run: |
-          ASSET_PATH=$(find -name *-lite.zip)
+          ASSET_PATH=$(find ./deploy -name *-lite.zip)
           echo "::set-output name=asset_path::${ASSET_PATH}"
           
       - name: Upload release asset
