@@ -3,7 +3,7 @@
 # Create a directory structure to store run once scripts
 on_chroot << EOF
 mkdir -p /etc/local/runonce.d/ran/
-mkdir -p /usr/local/bin/
+# mkdir -p /usr/local/bin/
 EOF
 
 # copy portainer.sh.sample
