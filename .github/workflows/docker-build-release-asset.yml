@@ -42,7 +42,7 @@ jobs:
         run: sudo apt-get -y install coreutils quilt parted qemu-user-static debootstrap zerofree zip dosfstools libarchive-tools libcap2-bin grep rsync xz-utils file git curl bc qemu-utils kpartx gpg pigz
       
       - name: Build the binary
-        run: sudo ./build-docker.sh -c default_config
+        run: sudo ./build-docker.sh -c config_rak
 #        run: sudo ./build.sh -c config_rak
         
       - name: Create Github release
